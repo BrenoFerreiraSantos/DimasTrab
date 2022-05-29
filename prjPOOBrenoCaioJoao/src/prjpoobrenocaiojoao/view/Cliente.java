@@ -100,7 +100,7 @@ public class Cliente extends javax.swing.JFrame {
 
         lbLimDisp.setText("Limite Disponível");
 
-        btnClienteConsultar.setIcon(new javax.swing.ImageIcon("C:\\Users\\mumei\\Downloads\\DimasTrab-main\\prjPOOBrenoCaioJoao\\build\\classes\\icon\\pesq.png")); // NOI18N
+        btnClienteConsultar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/pesq.png"))); // NOI18N
         btnClienteConsultar.setText("Consultar");
         btnClienteConsultar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -108,19 +108,19 @@ public class Cliente extends javax.swing.JFrame {
             }
         });
 
-        btnClienteIncluir.setIcon(new javax.swing.ImageIcon("C:\\Users\\mumei\\Downloads\\DimasTrab-main\\prjPOOBrenoCaioJoao\\build\\classes\\icon\\add.png")); // NOI18N
+        btnClienteIncluir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/add.png"))); // NOI18N
         btnClienteIncluir.setText("Incluir");
         btnClienteIncluir.setEnabled(false);
 
-        btnClienteAlterar.setIcon(new javax.swing.ImageIcon("C:\\Users\\mumei\\Downloads\\DimasTrab-main\\prjPOOBrenoCaioJoao\\build\\classes\\icon\\Alterar.png")); // NOI18N
+        btnClienteAlterar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/Alterar.png"))); // NOI18N
         btnClienteAlterar.setText("Alterar");
         btnClienteAlterar.setEnabled(false);
 
-        btnClienteExcluir.setIcon(new javax.swing.ImageIcon("C:\\Users\\mumei\\Downloads\\DimasTrab-main\\prjPOOBrenoCaioJoao\\build\\classes\\icon\\Eraser.png")); // NOI18N
+        btnClienteExcluir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/Eraser.png"))); // NOI18N
         btnClienteExcluir.setText("Excluir");
         btnClienteExcluir.setEnabled(false);
 
-        btnClienteSair.setIcon(new javax.swing.ImageIcon("C:\\Users\\mumei\\Downloads\\DimasTrab-main\\prjPOOBrenoCaioJoao\\build\\classes\\icon\\exit.png")); // NOI18N
+        btnClienteSair.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/exit.png"))); // NOI18N
         btnClienteSair.setText("Sair");
         btnClienteSair.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -255,7 +255,7 @@ public class Cliente extends javax.swing.JFrame {
                     .addComponent(btnClienteAlterar)
                     .addComponent(btnClienteExcluir)
                     .addComponent(btnClienteSair))
-                .addContainerGap(39, Short.MAX_VALUE))
+                .addContainerGap(37, Short.MAX_VALUE))
         );
 
         pack();

@@ -102,22 +102,22 @@ public class Vendedor extends javax.swing.JFrame {
             ex.printStackTrace();
         }
 
-        btnVendedorConsultar.setIcon(new javax.swing.ImageIcon("C:\\Users\\mumei\\Downloads\\DimasTrab-main\\prjPOOBrenoCaioJoao\\build\\classes\\icon\\pesq.png")); // NOI18N
+        btnVendedorConsultar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/pesq.png"))); // NOI18N
         btnVendedorConsultar.setText("Consultar");
 
-        btnVendedorIncluir.setIcon(new javax.swing.ImageIcon("C:\\Users\\mumei\\Downloads\\DimasTrab-main\\prjPOOBrenoCaioJoao\\build\\classes\\icon\\add.png")); // NOI18N
+        btnVendedorIncluir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/add.png"))); // NOI18N
         btnVendedorIncluir.setText("Incluir");
         btnVendedorIncluir.setEnabled(false);
 
-        btnVendedorAlterar.setIcon(new javax.swing.ImageIcon("C:\\Users\\mumei\\Downloads\\DimasTrab-main\\prjPOOBrenoCaioJoao\\build\\classes\\icon\\Alterar.png")); // NOI18N
+        btnVendedorAlterar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/Alterar.png"))); // NOI18N
         btnVendedorAlterar.setText("Alterar");
         btnVendedorAlterar.setEnabled(false);
 
-        btnVendedorExcluir.setIcon(new javax.swing.ImageIcon("C:\\Users\\mumei\\Downloads\\DimasTrab-main\\prjPOOBrenoCaioJoao\\build\\classes\\icon\\Eraser.png")); // NOI18N
+        btnVendedorExcluir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/Eraser.png"))); // NOI18N
         btnVendedorExcluir.setText("Excluir");
         btnVendedorExcluir.setEnabled(false);
 
-        btnVendedorSair.setIcon(new javax.swing.ImageIcon("C:\\Users\\mumei\\Downloads\\DimasTrab-main\\prjPOOBrenoCaioJoao\\build\\classes\\icon\\exit.png")); // NOI18N
+        btnVendedorSair.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/exit.png"))); // NOI18N
         btnVendedorSair.setText("Sair");
         btnVendedorSair.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -229,7 +229,7 @@ public class Vendedor extends javax.swing.JFrame {
                     .addComponent(btnVendedorAlterar)
                     .addComponent(btnVendedorExcluir)
                     .addComponent(btnVendedorSair))
-                .addContainerGap(27, Short.MAX_VALUE))
+                .addContainerGap(25, Short.MAX_VALUE))
         );
 
         pack();

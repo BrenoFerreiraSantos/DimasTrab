@@ -55,7 +55,7 @@ public class Produto extends javax.swing.JFrame {
 
         jLabel5.setText("Estoque Mínimo");
 
-        btnProdutoConsultar.setIcon(new javax.swing.ImageIcon("C:\\Users\\mumei\\Downloads\\DimasTrab-main\\prjPOOBrenoCaioJoao\\build\\classes\\icon\\pesq.png")); // NOI18N
+        btnProdutoConsultar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/pesq.png"))); // NOI18N
         btnProdutoConsultar.setText("Consultar");
         btnProdutoConsultar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -63,19 +63,19 @@ public class Produto extends javax.swing.JFrame {
             }
         });
 
-        btnProdutoIncluir.setIcon(new javax.swing.ImageIcon("C:\\Users\\mumei\\Downloads\\DimasTrab-main\\prjPOOBrenoCaioJoao\\build\\classes\\icon\\add.png")); // NOI18N
+        btnProdutoIncluir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/add.png"))); // NOI18N
         btnProdutoIncluir.setText("Incluir");
         btnProdutoIncluir.setEnabled(false);
 
-        btnProdutoAlterar.setIcon(new javax.swing.ImageIcon("C:\\Users\\mumei\\Downloads\\DimasTrab-main\\prjPOOBrenoCaioJoao\\build\\classes\\icon\\Alterar.png")); // NOI18N
+        btnProdutoAlterar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/Alterar.png"))); // NOI18N
         btnProdutoAlterar.setText("Alterar");
         btnProdutoAlterar.setEnabled(false);
 
-        btnProdutoExcluir.setIcon(new javax.swing.ImageIcon("C:\\Users\\mumei\\Downloads\\DimasTrab-main\\prjPOOBrenoCaioJoao\\build\\classes\\icon\\Eraser.png")); // NOI18N
+        btnProdutoExcluir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/Eraser.png"))); // NOI18N
         btnProdutoExcluir.setText("Excluir");
         btnProdutoExcluir.setEnabled(false);
 
-        btnProdutoSair.setIcon(new javax.swing.ImageIcon("C:\\Users\\mumei\\Downloads\\DimasTrab-main\\prjPOOBrenoCaioJoao\\build\\classes\\icon\\exit.png")); // NOI18N
+        btnProdutoSair.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/exit.png"))); // NOI18N
         btnProdutoSair.setText("Sair");
         btnProdutoSair.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -154,7 +154,7 @@ public class Produto extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel5)
                     .addComponent(txtProdutoEstoqueMin, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 43, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 41, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnProdutoConsultar)
                     .addComponent(btnProdutoIncluir)

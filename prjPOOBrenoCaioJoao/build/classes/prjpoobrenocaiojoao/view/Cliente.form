@@ -155,7 +155,7 @@
                   <Component id="btnClienteExcluir" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="btnClienteSair" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="39" max="32767" attributes="0"/>
+              <EmptySpace pref="37" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -251,7 +251,7 @@
     <Component class="javax.swing.JButton" name="btnClienteConsultar">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\mumei\Downloads\DimasTrab-main\prjPOOBrenoCaioJoao\build\classes\icon\pesq.png"/>
+          <Image iconType="3" name="/icon/pesq.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Consultar"/>
       </Properties>
@@ -262,7 +262,7 @@
     <Component class="javax.swing.JButton" name="btnClienteIncluir">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\mumei\Downloads\DimasTrab-main\prjPOOBrenoCaioJoao\build\classes\icon\add.png"/>
+          <Image iconType="3" name="/icon/add.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Incluir"/>
         <Property name="enabled" type="boolean" value="false"/>
@@ -271,7 +271,7 @@
     <Component class="javax.swing.JButton" name="btnClienteAlterar">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\mumei\Downloads\DimasTrab-main\prjPOOBrenoCaioJoao\build\classes\icon\Alterar.png"/>
+          <Image iconType="3" name="/icon/Alterar.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Alterar"/>
         <Property name="enabled" type="boolean" value="false"/>
@@ -280,7 +280,7 @@
     <Component class="javax.swing.JButton" name="btnClienteExcluir">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\mumei\Downloads\DimasTrab-main\prjPOOBrenoCaioJoao\build\classes\icon\Eraser.png"/>
+          <Image iconType="3" name="/icon/Eraser.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Excluir"/>
         <Property name="enabled" type="boolean" value="false"/>
@@ -289,7 +289,7 @@
     <Component class="javax.swing.JButton" name="btnClienteSair">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\mumei\Downloads\DimasTrab-main\prjPOOBrenoCaioJoao\build\classes\icon\exit.png"/>
+          <Image iconType="3" name="/icon/exit.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Sair"/>
       </Properties>
